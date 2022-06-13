@@ -20,7 +20,6 @@ server.listen(3000, () => {
         humedad: data.humedad,
         viento: data.viento,
         fecha: db.Timestamp.fromDate(new Date())
-        
     });*/
 });
 
