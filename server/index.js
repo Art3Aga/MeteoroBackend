@@ -1,6 +1,6 @@
 const http = require('http');
 const express = require('express');
-const firebase = require('./server/firebase/firebase_config');
+const firebase = require('./firebase/firebase_config');
 
 const app = express();
 const server = http.createServer(app);
